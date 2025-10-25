@@ -17,7 +17,7 @@ const LipiBookForgotPassword = () => {
   const router = useRouter();
 
   const handleBackToLogin = () => {
-    router.push('/RESETPASS');
+    router.push('/commitee-resetpass');
   };
 
   return (

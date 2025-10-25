@@ -18,7 +18,7 @@ const LipiBookDashboard = () => {
   const router = useRouter();
 
    const handlelogout = () => {
-    router.push('/CLOGIN');
+    router.push('/commitee-login');
   };
 
   return (

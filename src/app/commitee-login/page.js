@@ -16,11 +16,11 @@ export default function LipiBookLogin() {
   const router = useRouter();
 
   const handleHome = () => {
-    router.push('/CHOME');
+    router.push('/commitee-home');
   };
 
     const handleForgetpassword = () => {
-    router.push('/CFORGOTPASS');
+    router.push('/commitee-forgotpass');
   };
 
   return (

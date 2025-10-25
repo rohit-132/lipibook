@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleLoginClick = () => {
-    router.push('/CLOGIN');
+    router.push('/commitee-login');
   };
 
   return (
